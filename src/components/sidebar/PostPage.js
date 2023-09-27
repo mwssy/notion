@@ -1,3 +1,4 @@
+import { request } from "../../utils/api.js"
 import PostList from "./PostList.js"
 
 export default function PostPage ({ $target }) {
@@ -5,6 +6,8 @@ export default function PostPage ({ $target }) {
   $page.className = 'documentDiv'
 
   $target.appendChild($page)
+
+  const data = request("/documents")
 
   const testData = [
       {
