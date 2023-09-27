@@ -7,6 +7,7 @@ export default function PostPage ({ $target }) {
 
   $target.appendChild($page)
 
+  // api 테스트
   const data = request("/documents")
 
   const testData = [
@@ -36,7 +37,7 @@ export default function PostPage ({ $target }) {
 
   new PostList({
     $target: $page,
-    testData 
+    testData: data
   })
 
   // todo: 컴포넌트화 시키기
