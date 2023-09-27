@@ -1,5 +1,6 @@
 export default function Sidebar ({ $target, initialState }) {
   const $sidebar = document.createElement("div")
+  $sidebar.className = 'postList'
 
   const testData = [
       {
@@ -28,7 +29,7 @@ export default function Sidebar ({ $target, initialState }) {
 
   this.state = testData
 
-  $target.append($sidebar)
+  $target.appendChild($sidebar)
 
   $sidebar.innerHTML = `
       <ul>
