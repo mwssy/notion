@@ -1,5 +1,5 @@
-import Editor from "./Editor.js";
-import Sidebar from "./Sidebar.js";
+import Editor from "./editor/Editor.js";
+import PostPage from "./sidebar/PostPage.js";
 
 export default function App({ $target }) {
     const $listContainer = document.createElement('div')
@@ -11,7 +11,7 @@ export default function App({ $target }) {
     $target.appendChild($rendingContainer)
 
     const initialState = []
-    new Sidebar({
+    new PostPage({
         $target: $listContainer, 
         initialState 
     })
