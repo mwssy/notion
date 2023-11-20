@@ -1,42 +1,38 @@
 ul {
     list-style-type: circle;
-}
-
-.dataList:hover {
-    background-color: #e9e9e9;
-    opacity: 0.8;
-}
-
-li {
+  }
+  
+  li {
     margin-top: 4%;
-}
-
-.listContainer {
+  }
+  
+  .listContainer {
     width: 280px;
     height: 1080px;
     background-color: var(--sideBar);
     overflow: auto;
     resize: horizontal;
-}
-
-.listContainer h2 {
+  }
+  
+  .listContainer h2 {
     font-size: 18px;
     font-weight: 500;
     margin: 10% 0% 0% 5%;
-}
-
-.listContainer h3 {
+  }
+  
+  .listContainer h3 {
     font-size: 15px;
     margin: 2% 0% 0% 5%;
     color: #808080;
-}
-
-.postList {
+  }
+  
+  .postList {
     margin-top: 10%;
     margin-bottom: 10%;
-}
-
-.addNew {
+    color: #808080;
+  }
+  
+  .addNew {
     background-color: #f7f6f3;
     border: none;
     text-align: left;
@@ -46,33 +42,23 @@ li {
     height: 25px;
     background-color: var(--sideBar);
     color: var(--text-color);
-}
-
-.addNew:hover {
+  }
+  
+  .addNew:hover {
     background-color: #e9e9e9;
     opacity: 0.8;
-}
-
-.postList {
-    color: #808080;
-}
-
-.addBtn {
+  }
+  
+  .addBtn {
     background-color: #f7f6f3;
     border: none;
     background-color: var(--sideBar);
     color: var(--text-color);
-}
-
-.delBtn {
+  }
+  
+  .delBtn {
     background-color: #f7f6f3;
     border: none;
     background-color: var(--sideBar);
     color: var(--text-color);
-}
-
-.far {
-    width: 100%;
-    height: 100vh;
-    padding-right: 100%;
-}
+  }
